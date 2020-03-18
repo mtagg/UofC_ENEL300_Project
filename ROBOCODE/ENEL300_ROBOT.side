@@ -1,0 +1,12 @@
+ENEL300_ROBOT.c
+-I ./../../Learn/Simple Libraries/Sensor/libping
+-L ./../../Learn/Simple Libraries/Sensor/libping
+>compiler=C
+>memtype=cmm main ram compact
+>optimize=-Os
+>-m32bit-doubles
+>-fno-exceptions
+>defs::-std=c99
+>-lm
+>linker::-lping
+>BOARD::ACTIVITYBOARD
